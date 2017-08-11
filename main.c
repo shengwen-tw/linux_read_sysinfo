@@ -12,9 +12,9 @@ int main(void)
 		return 0;
 	}
  
-	read(fd, s, 37);
+	read(fd, s, 17);
  
-	printf("mac address is '%s'\n", s);
+	printf("mac address is %s\n", s);
  
 	close(fd);
  
